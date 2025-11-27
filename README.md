@@ -54,6 +54,9 @@ Auditoria baseada em nuvem ajuda a sinalizar qualquer recurso que esteja fora de
 Temos duas frente para o tópico de gerenciamento, o *gerenciamento da nuvem* e o *gerenciamento em nuvem*.
   - Gerenciamento da nuvem - Diz respeito ao gerenciamento dos recusos. Escalabilidade, implantação de recursos, monitoramento de recursos, alertas automáticos com base em métricas preestabelecidas, entre outros.
   - Gerenciamento em nuvem - Outro tipo de gerenciamento é a forma que o gerenciamento da nuvem é feito, quais formas podemos gerenciar o ambiente e seus recursos. Via CLI, portal web, via powershell e também por APIs.
+
+<br>
+
 [Topo](#ancora)
 
 ---
@@ -62,11 +65,11 @@ Temos duas frente para o tópico de gerenciamento, o *gerenciamento da nuvem* e 
 ### Criação de uma VM
 O LAB passa o inicio da criamção de uma VM, sem finalizar o processo de criação, ele mostra apenas a replicação de dados e os tipos de estratégias e estruturas que podemos utilizar que impactam no SLA ([Disponibilidade](#ancora1)).
 
-primeira imagem
+![Opções de disponibilidade de Maquinas Virtuais](./img/opcoes.png)
 
 Em Opções de Disponiblidade dentro da criação de uma VM. Cada uma das opções implica diretamente na escolha do SLA
 
-segunda imagem
+![Redundância em Contas de Armazenamento](./img/redundancia.png)
 
 Outro lugar onde gera impacto no SLA é a Redundância dentro da criação de Contas de Armazenamento. LRS, GRS, ZRS e GZRS são siglas que dizem respeito a como eu estou replicando os dados entre Datacenter e Regioes Geográficas.
 
